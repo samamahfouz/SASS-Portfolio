@@ -4,6 +4,24 @@
   padding: 0;
 }
 
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/dist/img/myphoto.jpg") center top;
+  background-size: cover;
+}
+.home-name {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+}
+.home-name-last {
+  color: rgb(156, 142, 38);
+}
+
 body {
   background: #272727;
   color: #fff;
@@ -39,9 +57,10 @@ main .social-icons {
 }
 main .social-icons a {
   padding: 0.5rem;
+  transition: all 0.5s ease-in-out;
 }
 main .social-icons a:hover {
-  color: #ff652f;
+  color: rgb(156, 142, 38);
 }
 
 footer {
